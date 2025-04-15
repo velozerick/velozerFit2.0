@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Bienvenido "
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/homeImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/velozerfit" />
+
+    <Button
+        android:id="@+id/btnEntrenar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏋️ Entrenar"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#00C853"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/btnIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚖️ Calcular IMC"
+        android:backgroundTint="#0091EA"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:elevation="4dp" />
+
+</LinearLayout>

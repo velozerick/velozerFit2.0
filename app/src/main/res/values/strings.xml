@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VelozerFit 2.0</string>
+    <string name="login_title">Iniciar Sesión 🔐</string>
+    <string name="email_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="btn_login">Iniciar</string>
+    <string name="titulo_entrenar">¿Qué zona quieres entrenar?</string>
+    <string name="hombros">Hombros</string>
+    <string name="biceps">Bíceps</string>
+    <string name="espalda">Espalda</string>
+    <string name="pecho">Pecho</string>
+    <string name="abdomen">Abdomen</string>
+    <string name="piernas">Piernas</string>
+    <string name="nombre_ejercicio">Nombre del Ejercicio</string>
+    <string name="descripcion_ejercicio">Descripción del ejercicio</string>
+    <string name="descripcion_icono_ejercicio">Ícono del ejercicio</string>
+    <string name="titulo_hombros">Ejercicios para Hombros</string>  <!-- Asegúrate de que esta línea esté aquí -->
+</resources>
+

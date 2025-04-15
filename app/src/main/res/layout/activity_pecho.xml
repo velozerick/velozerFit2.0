@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".PechoActivity">
+
+    <!-- Título de la actividad -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicios para Pecho"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- ScrollView para permitir desplazamiento -->
+    <android.widget.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonsLayout"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <!-- LinearLayout para contener los ejercicios -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Ejercicio 1 -->
+            <ImageView
+                android:id="@+id/iconoEjercicio"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_fitness_center" />
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Press de Banca"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <!-- Agregar espacio entre ejercicios -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+
+            <!-- Ejercicio 2 -->
+            <ImageView
+                android:id="@+id/iconoEjercicio1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_fitness_center" />
+
+            <TextView
+                android:id="@+id/txtNombre1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flexiones "
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtDescripcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <!-- Agregar espacio entre ejercicios -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+
+            <!-- Ejercicio 3 -->
+            <ImageView
+                android:id="@+id/iconoEjercicio2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_fitness_center" />
+
+            <TextView
+                android:id="@+id/txtNombre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Press de Banca inclinado"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtDescripcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <!-- Agregar espacio entre ejercicios -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+
+            <!-- Ejercicio 4 -->
+            <ImageView
+                android:id="@+id/iconoEjercicio3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_fitness_center" />
+
+            <TextView
+                android:id="@+id/txtNombre3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aperturas con Mancuerna"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtDescripcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <!-- Agregar espacio entre ejercicios -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+
+            <!-- Ejercicio 5 -->
+            <ImageView
+                android:id="@+id/iconoEjercicio4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_fitness_center" />
+
+            <TextView
+                android:id="@+id/txtNombre4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fondo en Paralelas"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtDescripcion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </android.widget.ScrollView>
+
+    <!-- LinearLayout para los botones debajo -->
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Botón de iniciar rutina -->
+        <Button
+            android:id="@+id/btnIniciarRutina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Iniciar Rutina"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <!-- Cronómetro -->
+        <TextView
+            android:id="@+id/cronometro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="00:00"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <!-- Botón de pausar -->
+
+
+        <!-- Botón para pasar a la siguiente rutina -->
+        <Button
+            android:id="@+id/btnSiguienteRutina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Pasar a la siguiente rutina"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <!-- Botón de finalizar -->
+        <Button
+            android:id="@+id/btnFinalizarRutina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Finalizar Rutina"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <!-- Botón para restar repeticiones -->
+        <LinearLayout
+            android:id="@+id/contadorRepeticiones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@id/buttonsLayout">
+
+            <!-- Botón para restar repeticiones -->
+            <Button
+                android:id="@+id/btnRestar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="20sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:textColor="@android:color/white"
+                android:padding="16dp"/>
+
+            <!-- Contador de repeticiones -->
+            <TextView
+                android:id="@+id/txtRepeticiones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <!-- Botón para sumar repeticiones -->
+            <Button
+                android:id="@+id/btnSumar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="20sp"
+                android:background="?android:attr/selectableItemBackground"
+                android:textColor="@android:color/white"
+                android:padding="16dp"/>
+            <TextView
+                android:id="@+id/txtSerie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estás en la serie 1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnSumar"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

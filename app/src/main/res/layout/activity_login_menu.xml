@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginMenuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_gradient"
+    tools:context=".LoginMenuActivity">
+
+    <TextView
+        android:id="@+id/textBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a VelozerFit"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="#00C853"
+        android:textColor="#FFFFFF"
+        android:elevation="8dp"
+        android:layout_below="@id/textBienvenido"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnRegistrarse"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:layout_below="@id/btnIniciarSesion"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#1DE9B6"
+        android:textColor="#FFFFFF"
+        android:elevation="8dp"
+        android:textSize="16sp" />
+
+</RelativeLayout>
