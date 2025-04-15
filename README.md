@@ -25,11 +25,11 @@ VelozerFit es una aplicación de entrenamiento personal pensada para ayudarte a 
 
 ## Capturas de pantalla
 
-| Registro de usuario  | Ejercicios por grupo muscular |
+
 |----------------------|-------------------------------|
 | ![image](https://github.com/user-attachments/assets/bb1b6c1f-088b-4e0e-ab51-fa77b37341a2) | ![image](https://github.com/user-attachments/assets/869dd7a5-9068-4da1-a633-ed388f8f3c81) |
 
-| Bienvenida personalizada |
+
 |--------------------------|
 | ![image](https://github.com/user-attachments/assets/e281eefd-528b-487d-ae45-27e833ab280c)
  |
