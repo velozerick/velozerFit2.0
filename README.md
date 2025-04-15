@@ -33,7 +33,7 @@ VelozerFit es una aplicación de entrenamiento personal pensada para ayudarte a 
 |  |
 |--------------------------|
 | ![image](https://github.com/user-attachments/assets/e281eefd-528b-487d-ae45-27e833ab280c)
- |
+ 
 
 
 ---
