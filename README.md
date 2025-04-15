@@ -1,6 +1,6 @@
-# 💪 VelozerFit 2.0
+# VelozerFit 2.0
 
-**VelozerFit** es una aplicación de entrenamiento personal que permite a los usuarios seleccionar rutinas de ejercicio, seguir repeticiones y tiempos, y controlar su progreso físico. Está pensada para usarse fácilmente en dispositivos Android y adaptarse tanto a principiantes como a usuarios avanzados.
+VelozerFit es una aplicación de entrenamiento personal pensada para ayudarte a organizar tus rutinas por grupos musculares, controlar tus series, repeticiones y tiempo de ejercicio. Es ideal tanto para principiantes como para usuarios avanzados que deseen mantener su progreso desde su dispositivo Android.
 
 ---
 
@@ -15,37 +15,40 @@
   - Espalda
   - Abdomen
   - Piernas
-- Integración con YouTube: cada ejercicio tiene un video de referencia
-- Cronómetro funcional para rutinas
-- Contador de repeticiones y series
-- Cambio automático entre series
-- Mensaje de felicitación al terminar
+- Enlace a videos de YouTube para cada ejercicio
+- Cronómetro integrado para rutinas
+- Contador de repeticiones y número de series
+- Transición automática entre series
+- Mensaje de felicitación al completar las series
 
 ---
 
-##  Capturas de pantalla
-![image](https://github.com/user-attachments/assets/bb1b6c1f-088b-4e0e-ab51-fa77b37341a2)
+## Capturas de pantalla
 
-![image](https://github.com/user-attachments/assets/869dd7a5-9068-4da1-a633-ed388f8f3c81)
-![image](https://github.com/user-attachments/assets/e281eefd-528b-487d-ae45-27e833ab280c)
+| Registro de usuario  | Ejercicios por grupo muscular |
+|----------------------|-------------------------------|
+| ![Registro](https://github.com/usuario/repo/assets/imagen_registro.png) | ![Rutina](https://github.com/usuario/repo/assets/imagen_rutina.png) |
 
+| Bienvenida personalizada |
+|--------------------------|
+| ![Bienvenida](https://github.com/usuario/repo/assets/imagen_bienvenida.png) |
 
-
-
----
-
-##  Tecnologías utilizadas
-
-- **Lenguaje:** Java
-- **IDE:** Android Studio
-- **Diseño UI:** XML con ScrollView y ConstraintLayout
-- **Base de datos:** SQLite (con DBHelper personalizado)
-- **Control de versiones:** Git + GitHub
+*Nota: reemplaza las URLs por tus propias imágenes subidas al repositorio.*
 
 ---
 
-##  Instalación
+## Tecnologías utilizadas
+
+- Lenguaje: Java
+- IDE: Android Studio
+- UI: XML con ScrollView y ConstraintLayout
+- Base de datos: SQLite con DBHelper personalizado
+- Control de versiones: Git + GitHub
+
+---
+
+## Instalación
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/velozerfit2.0.git
+   git clone https://github.com/velozerick/velozerfit2.0.git
