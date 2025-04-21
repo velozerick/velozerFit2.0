@@ -6,8 +6,8 @@ VelozerFit es una aplicación de entrenamiento personal pensada para ayudarte a 
 
 ## 📑 Índice
 
-- [📘 Documentación Técnica](DOCUMENTACION.md)
-- [📕 Manual de Usuario](MANUAL_USUARIO.md)
+- [📘 Documentación Técnica](02_DOCUMENTACION.md)
+- [📕 Manual de Usuario](03_MANUAL_USUARIO.md)
 - [⚖️ Licencia](LICENSE)
 
 ---
