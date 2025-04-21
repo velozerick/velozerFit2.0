@@ -170,3 +170,11 @@ Para dudas o sugerencias, visita el repositorio oficial:
 
 ---
 
+## 13. Versión de la aplicación
+
+**VelozerFit 2.0**  
+Última actualización: abril de 2025
+
+---
+
+
